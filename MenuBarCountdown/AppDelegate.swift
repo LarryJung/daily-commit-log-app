@@ -25,12 +25,12 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         let dateStringFormatter = DateFormatter()
         dateStringFormatter.dateFormat = "yyyy-MM-dd"
 
-        let endDate = dateStringFormatter.date(from: "2016-11-05")!
-        let remainingTime = endDate.timeIntervalSince(Date())
-        let days =  Int(remainingTime / 60 / 60 / 24)
-//        let hours = Int(remainingTime / 60 / 60 % 24)
-//        let minutes = Int(remainingTime / 60 % 60)
-//        let seconds = Int(remainingTime % 60)
+        let endDate = dateStringFormatter.date(from: "2017-04-01")!
+        let remainingTime = Int(endDate.timeIntervalSince(Date()))
+        let days =  remainingTime / 60 / 60 / 24
+//        let hours = remainingTime / 60 / 60 % 24
+//        let minutes = remainingTime / 60 % 60
+//        let seconds = remainingTime % 60
 //        statusItem.title = "あと\(days)日\(hours)時\(minutes)分\(seconds)秒"
         statusItem.title = "あと\(days)日"
     }

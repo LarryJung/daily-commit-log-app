@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		203166AA1DD46C0A00BA8CA1 /* readme.md in Sources */ = {isa = PBXBuildFile; fileRef = 203166A91DD46C0A00BA8CA1 /* readme.md */; };
 		204A2FD61AAC40FE00673A11 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204A2FD51AAC40FE00673A11 /* AppDelegate.swift */; };
 		204A2FDA1AAC40FE00673A11 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 204A2FD91AAC40FE00673A11 /* Images.xcassets */; };
 		204A2FDD1AAC40FE00673A11 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 204A2FDB1AAC40FE00673A11 /* Main.storyboard */; };
@@ -24,6 +25,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		203166A91DD46C0A00BA8CA1 /* readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
 		204A2FD01AAC40FE00673A11 /* MenuBarCountdown.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MenuBarCountdown.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		204A2FD41AAC40FE00673A11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		204A2FD51AAC40FE00673A11 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -55,6 +57,7 @@
 		204A2FC71AAC40FE00673A11 = {
 			isa = PBXGroup;
 			children = (
+				203166A91DD46C0A00BA8CA1 /* readme.md */,
 				204A2FD21AAC40FE00673A11 /* MenuBarCountdown */,
 				204A2FE51AAC40FE00673A11 /* MenuBarCountdownTests */,
 				204A2FD11AAC40FE00673A11 /* Products */,
@@ -152,7 +155,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0700;
-				ORGANIZATIONNAME = "LM";
+				ORGANIZATIONNAME = LM;
 				TargetAttributes = {
 					204A2FCF1AAC40FE00673A11 = {
 						CreatedOnToolsVersion = 6.1.1;
@@ -208,6 +211,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				203166AA1DD46C0A00BA8CA1 /* readme.md in Sources */,
 				204A2FD61AAC40FE00673A11 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
